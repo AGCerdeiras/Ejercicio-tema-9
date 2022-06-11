@@ -11,8 +11,8 @@ public class Main {
 
         System.out.println("la edad del cliente es de " + cliente.edad  + " años");
         System.out.println("el cliente se llama " + cliente.nombre);
-        System.out.println("el télefono del cliente es el " + cliente.telefono);
-        System.out.println("el credito del cliente es de " + cliente.credito + " Euros");
+        System.out.println("el teléfono del cliente es el " + cliente.telefono);
+        System.out.println("el crédito del cliente es de " + cliente.credito + " Euros");
 
         trabajador.edad = 24;
         trabajador.nombre = "Juan";
@@ -21,7 +21,7 @@ public class Main {
 
         System.out.println("la edad del trabajador es de " + trabajador.edad  + " años");
         System.out.println("el trabajador se llama " + trabajador.nombre);
-        System.out.println("el télefono del trabajador es el " + trabajador.telefono);
+        System.out.println("el teléfono del trabajador es el " + trabajador.telefono);
         System.out.println("el trabajador tiene un salario de " + trabajador.salario + " Euros");
 
     }
